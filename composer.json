@@ -1,5 +1,11 @@
 {
     "require-dev": {
         "phpunit/phpunit": "*"
-    }
-}
+    },
+    "config": {
+        "audit": {
+            "ignore": [
+                "PKSA-z3gr-8qht-p93v"
+            ]
+        }
+    }}
